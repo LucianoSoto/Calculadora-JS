@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0%;
+    margin: 0%;
+}
+
+#app{
+    display: flex;
+}
+
+#app>div{
+    margin: 0%;
+    padding: 0%;
+    font-size: 2rem;
+    justify-content: center;
+}
+
+
+#resultado{
+    margin: 10%;
+    padding: 0%;
+    font-size: 2rem;
+    background: black;
+    color: aliceblue;
+    justify-content: center;
+}
+
+#sx{
+    border: 1px #ccc solid;
+    padding: 10px;
+    width: 40%;
+    text-align: center;
+}
+
+#dx{
+    border: 1px #ccc solid;
+    padding: 30px;
+    width: 60%;
+}
+
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+@media(max-width:600px){
+    #app{
+        flex-direction: column;
+    }
+
+    #sx{
+        width: 100%;
+    }
+
+    #dx{
+        width: 100%;
+    }
+}
